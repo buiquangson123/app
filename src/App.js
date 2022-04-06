@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Footer from "./components/views/Footer";
+import TodoList from "./components/views/TodoList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header classname="header">
+        <h1>Todos</h1>
+        <input
+          className="new-todo"
+          placeholder="What needs to be done?"
+          // autofocus
+          // onkeyup="event.keyCode === 13 && dispatch('add', this.value.trim())"
+        />
       </header>
+      <TodoList></TodoList>
+      <Footer></Footer>
     </div>
   );
 }

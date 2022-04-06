@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "name": "HTML-CSS",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "Javascript",
+      "isComplete": true
+    },
+    {
+      "id": 3,
+      "name": "PHP",
+      "isComplete": false
+    },
+    {
+      "id": 4,
+      "name": "Reactjs",
+      "isComplete": true
+    },
+    {
+      "id": 5,
+      "name": "Veujs",
+      "isComplete": false
+    },
+    {
+      "name": "C++",
+      "isComplete": true,
+      "id": 6
+    }
+  ]
+}
